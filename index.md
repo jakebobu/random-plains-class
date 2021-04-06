@@ -1,14 +1,14 @@
 # Random-plains-class: Introducing a repo used to analyze land change in northeastern Colorado from 1984 to 2019
 <p align="center">
-  <img src="data/face.png" width="50"><br>
+  <img src="data/face.png" width="40"><br>
   <b><sub>Jake Bobula</sub></b><br>
-  <b><sub>April 5, 2021</sub></b><br>
+  <b><sub>April 5, 2021</sub></b><br><br>
   <img src="data/cultivated_transition_larimer.png"><br>
 </p>
 
 
 ### Random-plains-class
-Our random-plains-class repo found here contains the scripts to create a random forest land classification model. Our research team used the repo to analyze 36 years of satellite imagery to investigate land cover trends. This repo serves two purposes: 1) as the collection of scripts to reproduce the data found in our research article "A social-ecological land-use change model: a multi-method examination of change on working rangelands in northeastern Colorado from 1984 to 2019" and 2) as a contribution to and inspiration for connecting open source libraries in geospatial, satellite imagery, and machine learning, among others. I designed this repo to examine land cover change in northeastern Colorado within a more extensive research study that I discuss below. Thus, this is not a coherent library but one approach to building a land classification model that met our collaborative teams' needs. This is a work in progress of a collection of scripts (not a coherent library), and there are many better ways, better algorithms in this area of study. Lastly, this repo is a work in progress, so please follow and fork.
+Our random-plains-class repo found [here](https://github.com/jakebobu/random-plains-class) contains the scripts to create a random forest land classification model. Our research team used the repo to analyze 36 years of satellite imagery to investigate land cover trends. This repo serves two purposes: 1) as the collection of scripts to reproduce the data found in our research article "A social-ecological land-use change model: a multi-method examination of change on working rangelands in northeastern Colorado from 1984 to 2019" and 2) as a contribution to and inspiration for connecting open source libraries in geospatial, satellite imagery, and machine learning, among others. I designed this repo to examine land cover change in northeastern Colorado within a more extensive research study that I discuss below. Thus, this is not a coherent library but one approach to building a land classification model that met our collaborative teams' needs. _*This is a collection of scripts (not a coherent library) and there are many better ways, better algorithms in this area of study.*_ Lastly, this repo is a work in progress, so please follow and fork.
 
 
 ### A multi-method land change research study
@@ -18,7 +18,7 @@ Cattle ranchers identify rapid social and ecological change as a threat to range
 <sub>The multi-method research process used to examine social-ecological land change in northeastern Colorado.</sub>
 
 
-I developed and applied the random-plains-class repo for the study's quantitative component to analyze land cover changes for the two study sites. _This repo is intended to help the qualitative methods by matching the spatial and temporal aspects.  This wasn't possible with just NLCD with its limited temporal set of 7 years none before 2001.  These days with more public satilite data its possible to create a psudo nlcd for every year and going further back in time._
+I developed and applied the random-plains-class repo for the study's quantitative component to analyze land cover changes for the two study sites. _*This repo is intended to help the qualitative methods by enabling us to align the land cover analysis's temporal and spatial extent with participants’ lived experiences.  We wanted more temporal information than NLCD could provide (its is a limited set of seven coherent/functional years, none of these before 2001).  These days with public satellite data and open source libraries its possible to create a psudo NLCD for every year and going further back in time.*_
 
 <img src="data/study_sites.png" width="700"/><br>
 <sub>The two adjacent study sites, one centered in northeastern (NE) Larimer County and the other in northcentral (NC) Weld County, Colorado (ESRI 2011).</sub>
@@ -30,14 +30,14 @@ One of our findings is that both study sites experienced a decline in cultivated
 <sub>Change over time: 2019 and 1984 model outputs show the decrease in cultivated crops (yellow).</sub>
 
 
-I designed this repo to collaboratively address an applied research question in northeastern Colorado. Yet, others can use the repo to replicate this process with minor adaptions in locations with NLCD coverage, such as Arizona's Sonoran Desert or Tennessee's Great Smokey Mountains. Moreover, this repo provides an illustrative model of integrating diverse geospatial libraries in python/bash. I built this repo by drawing inspiration and elements from other public projects, so please adapt and share. Our research team is already starting to modify this repo to train against new classification systems in East Africa's rangelands. Thus, check back in for updates on our next adventure in East Africa!
+I designed this repo to collaboratively address an applied research question in northeastern Colorado. Yet, others can use the repo to replicate this process with minor adaptions in locations with NLCD coverage, such as Arizona's Sonoran Desert or Tennessee's Great Smokey Mountains. Moreover, this repo provides an illustrative model of integrating diverse geospatial libraries in python/bash. I built this repo by drawing [inspiration](http://devseed.com/sat-ml-training/Randomforest_cropmapping-with_GEE) and [elements](https://georasters.readthedocs.io/en/latest/) from [other](https://imbalanced-learn.org/stable/references/generated/imblearn.under_sampling.NeighbourhoodCleaningRule.html) [public](https://emapr.github.io/LT-GEE/api.html#buildsrcollection) [resources](https://opensourceoptions.com/blog/python-geographic-object-based-image-analysis-geobia/), so please adapt and share. Our research team is already starting to modify this repo to train against new classification systems in East Africa's rangelands. Thus, check back in for updates on our next adventure in East Africa!
 
 <img src="data/bands.png" width="700"/><br>
 <sub>Satellite imagery inputs</sub>
 
 
 <img src="data/full_process.png" width="700"/><br>
-<sub>Flow chart of repo</sub>
+<sub>Flow chart of model development</sub>
 
 
 <img src="data/performance.png" width="700"/><br>

@@ -14,8 +14,10 @@ Our random-plains-class repo found [here](https://github.com/jakebobu/random-pla
 ### A multi-method land change research study
 Cattle ranchers identify rapid social and ecological change as a threat to rangeland ecosystems and their natural resource-dependent communities. Therefore, our research team applied a multi-method approach, integrating qualitative and quantitative data, to examine the causes and consequences of land-use change on land cover in two agricultural communities in Larimer and Weld Counties, northeastern (NE) Colorado.
 
+<p align="center">
 <img src="data/methodology.png" width="400"/><br>
-<sub>The multi-method research process used to examine social-ecological land change in northeastern Colorado.</sub>
+</p>
+<sub>The multi-method research process used to examine social-ecological land change in northeastern Colorado.</sub><br><br>
 
 
 I developed and applied the random-plains-class repo for the study's quantitative component to analyze land cover changes for the two study sites. _*This repo is intended to help the qualitative methods by enabling us to align the land cover analysis's temporal and spatial extent with participants’ lived experiences.  We wanted more temporal information than NLCD could provide (its is a limited set of seven coherent/functional years, none of these before 2001).  These days with public satellite data and open source libraries its possible to create a psudo NLCD for every year and going further back in time.*_

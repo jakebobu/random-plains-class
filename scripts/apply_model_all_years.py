@@ -77,7 +77,7 @@ for year in [
     print(f"starting {year}")
     t_start = time.time()
     folder_path = f"/media/jake/my_book/predict_imagery/{year}_imagery/finished"
-    #
+
     year_stack_name = f"{year}_folder_path"
 
     arr = make_raster_stack(folder_path)
